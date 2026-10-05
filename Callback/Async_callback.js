@@ -6,4 +6,4 @@ setTimeout(function (){
 }, 200);
 
 
-console.log("Test 3 : Moving  to next last");
+console.log("Test 3 : Moving  to next step");
