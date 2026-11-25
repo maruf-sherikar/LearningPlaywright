@@ -1,44 +1,38 @@
 # Learning Playwright
 
-This repository contains my learning notes and JavaScript exercises while studying Playwright and JavaScript fundamentals.
+A personal collection of JavaScript and automation-testing study notes and practice exercises. The repository currently focuses on JavaScript fundamentals and concepts useful when building toward Playwright automation.
 
-## Repository Structure
+## Topics and folders
 
-- Chapter_01_Basics/
-  - HelloWorld.js
-- Chapter_02_JavaScript/
-  - JavaScript learning concepts and examples
-- Chapter_02_Java_Concepts/
-  - Java concepts and notes
-- Chapter_03_Identifier/
-  - Identifier rules and comment examples
-- Chapter_04_Literal/
-  - Literal and null-vs-undefined examples
-- Chapter_05_Operator/
-  - Arithmetic, assignment, comparison, logical, ternary, and string operators
-- Chapter_06_Switch/
-  - Switch statement examples
-- Chapter_07_UserInput/
-  - Node-based user input examples using prompt
-- Interview_Questions/
-  - Interview practice and JavaScript questions
-- IQ_Notes/
-  - Quick notes and command references
+- `Chapter_01_Basics/` — introductory programs.
+- `Chapter_02_JavaScript/` and `Chapter_02_Java_Concepts/` — language concept examples and notes.
+- `Chapter_03_Identifier/` — identifiers, naming rules, and comments.
+- `Chapter_04_Literal/` — literals, `null`, and `undefined`.
+- `Chapter_05_Operator/` — arithmetic, assignment, comparison, logical, ternary, and string operators.
+- `Chapter_06_Switch/` and `Loops/` — branching and iteration.
+- `Chapter_07_UserInput/` — user input examples.
+- `Chapter_08_Fun_Closure/`, `Functions/`, and `Callback/` — functions, scope, closures, callbacks, and arrow functions.
+- `Chapter_09_String/` — string operations and practice problems.
+- `Arrays/`, `11_MultiDimensions_Array/`, and `10_Objects/` — arrays, multidimensional arrays, patterns, and objects.
+- `Class_Object_OOPs/` — classes, constructors, object behavior, and public/private fields.
+- `Async_Await/` and `Promise/` — asynchronous JavaScript examples.
+- `Export_Import/` — JavaScript modules and imports/exports.
+- `Interview_Questions/` and `IQ_Notes/` — interview exercises, quick notes, and command references.
 
-## Learning Goals
+## Getting started
 
-- Understand JavaScript basics and syntax
-- Practice identifiers, literals, operators, and conditions
-- Learn user input handling in Node.js
-- Build a strong foundation before moving into Playwright automation
+The examples are standalone JavaScript files. Run an individual example with Node.js from the repository root, for example:
 
-## Tools Used
+```sh
+node Chapter_01_Basics/HelloWorld.js
+```
 
-- JavaScript
-- Node.js
-- VS Code
+Some exercises may prompt for user input or demonstrate a particular concept; check the file before running it.
+
+## Tools
+
+- JavaScript and Node.js
+- Visual Studio Code
 - Git and GitHub
 
-## Notes
-
-This project is a personal learning repository and is intended for practice, revision, and study notes.
+This is an evolving learning repository. The examples are for practice and revision; Playwright-specific automation coverage can be added as the learning progresses.
